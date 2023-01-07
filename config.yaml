@@ -11,6 +11,7 @@ APP_ID: "wxf3175cc682697586"
 APP_SECRET: "e9a138d1458d3aaed926b259787aafba"
 
 USER_ID: 
-#  - "o-i3L6ZoYBthdWEwII5z52Xb8u_4"
+#   - "o-i3L6ZoYBthdWEwII5z52Xb8u_4"
+  - "o-i3L6Y1THo9QpiBRAlnZCEqBIy0"
   - "o-i3L6Y1THo9QpiBRAlnZCEqBIy0" # 你可以通过配置多个USER_ID来设置多个接受者，如果接受者只有一人删除本行即可
 TEMPLATE_ID: "9BwuCSedbULaZrNcSvsk8e0dOrZeQyt8qFEotfQ03U8"
