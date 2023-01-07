@@ -37,8 +37,8 @@ if __name__ == '__main__':
 
     env = {**os.environ, **config}
     print("开始运行，等待定时触发...")
-    schedule.every(1).minutes.do(send_message_now, env)
-    #schedule.every().day.at(config['DAILY_TIME']).do(send_message_now, env)
+    # schedule.every(1).minutes.do(send_message_now, env)
+    schedule.every().day.at(config['DAILY_TIME']).do(send_message_now, env)
 
     while True:
         schedule.run_pending()
